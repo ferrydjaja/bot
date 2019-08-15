@@ -1,1 +1,24 @@
-<html>Hello</html>
+<html>
+  <head>
+    <script>
+      
+    </script>
+  </head>
+  <body>
+    <script>
+	if (!document.getElementById("recast-webchat")) {
+
+                var s = document.createElement("script");
+                s.setAttribute("id", "recast-webchat");
+                s.setAttribute("src", "https://cdn.recast.ai/webchat/webchat.js");
+                if (document.body != null) {
+                    document.body.appendChild(s);
+                }
+
+                s.setAttribute("channelId", "98dfa6b5-6503-4246-88f0-0a8c09a120ac");
+                s.setAttribute("token", "43ee2c7f7fd851dd3e4648dea43b286d");
+
+            }
+	</script>
+  </body>
+</html>
